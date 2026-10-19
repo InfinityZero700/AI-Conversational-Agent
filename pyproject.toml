@@ -1,0 +1,19 @@
+[project]
+name = "agentic-orchestration-engine"
+version = "1.0.0"
+description = "Production agentic workflow engine with dynamic document ingestion, function dispatching, and tool execution."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Akshat N Milan" }
+]
+dependencies = [
+    "openai>=1.30.0",
+    "pypdf>=4.0.0",
+    "python-dotenv>=1.0.0",
+    "gradio>=4.20.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
